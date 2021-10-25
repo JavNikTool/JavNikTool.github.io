@@ -1,0 +1,38 @@
+@media (max-width: 960px){
+    .section-3__wrapp{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 769px){
+    .section-3__h2{
+        font-size: 30px;
+    }
+    .section-3__line th:nth-child(1){
+        font-size: 13px;
+    }
+    .section-3__line th{
+        font-size: 12px;
+        padding: 0 5px;
+    }
+}
+@media (max-width: 451px){
+    .section-3__wrapp{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section-3__line th:nth-child(1){
+        font-size: 10px;
+    }
+    .section-3__line th{
+        font-size: 10px;
+    }
+}
+@media (max-width: 376px){
+    .section-3__line th:nth-child(1){
+        font-size: 7px;
+    }
+    .section-3__line th{
+        font-size: 7px;
+    }
+}

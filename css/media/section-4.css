@@ -1,0 +1,30 @@
+@media (max-width: 900px){
+    .catalog-active{
+        justify-content: center;
+    }
+    .section-4__elem{
+        margin: 20px;
+    }
+}
+@media (max-width: 550px){
+    .section-4__li{
+        font-size: 15px;
+    }
+}
+@media (max-width: 426px){
+    .section-4__li{
+        font-size: 12px;
+    }
+}
+@media (max-width: 376px){
+    .section-4__li{
+        font-size: 10px;
+        height: 40px;
+    }
+}
+@media (max-width: 320px){
+    .section-4__li{
+        font-size: 9px;
+        
+    }
+}

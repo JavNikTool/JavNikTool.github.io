@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "blocks/section-1.css";
+@import "blocks/section-2.css";
+@import "blocks/section-3.css";
+@import "blocks/section-4.css";
+@import "blocks/section-5.css";
+@import "blocks/header.css";
+@import "blocks/pop-up.css";
+
+@import "media/header.css";
+@import "media/section-5.css";
+@import "media/section-1.css";
+@import "media/section-2.css";
+@import "media/section-3.css";
+@import "media/section-4.css";
+@import "media/pop-up.css";
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
