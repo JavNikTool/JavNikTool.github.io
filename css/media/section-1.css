@@ -1,0 +1,28 @@
+@media (max-width: 767px){
+    .section-1__h1{
+        font-size: 65px;
+    }
+    .section-1__h2{
+        font-size: 30px;
+    }
+    .section-1__text-price{
+        font-size: 32px;
+    }
+}
+@media (max-width: 499px){
+    .section-1__h1{
+        font-size: 50px;
+    }
+    .section-1__h2{
+        font-size: 25px;
+    }
+    .section-1__text-price{
+        font-size: 25px;
+    }
+    .section-1__h1::after{
+        max-width: 300px;
+    }
+    .section-1__text-discount{
+        font-size: 30px;
+    }
+}
