@@ -1,0 +1,36 @@
+.section-2{
+    min-height: 600px;
+    padding-top: 50px;
+}
+.section-2__wrapp{
+    text-align: center;
+}
+.section-2__h2{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1e1e1e;
+}
+.section-2__h2::after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+.section-2__text{
+    padding-top: 26px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #1e1e1e;
+    padding-bottom: 26px;
+}
+.section-2__girls{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
