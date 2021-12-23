@@ -1,0 +1,18 @@
+@media (max-width:1850px)
+    .info__wrapper
+        grid-template-columns: repeat(2, minmax(380px, 1fr))
+        grid-template-rows: repeat(2, minmax(380px, 1fr))
+        justify-items: center
+    .info__text
+        text-align: center
+@media (max-width:1000px)
+    .info__wrapper
+        grid-template-columns: repeat(1, minmax(auto, auto))
+        grid-template-rows: repeat(4, minmax(auto, auto))
+@media (max-width:425px)
+    .info
+        padding-left: 0
+        padding-right: 0
+        &__text
+            font-size: 30px
+            text-align: center

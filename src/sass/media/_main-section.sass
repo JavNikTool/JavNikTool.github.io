@@ -1,0 +1,60 @@
+@media (max-width:1440px)
+    .main-section__recipes__logo
+        font-size: 60px
+    .main-section__recipes
+        padding-left: 20px
+        padding-right: 20px
+@media (max-width:1350px)
+    .main-section__header__list_item
+        padding-right: 33px            
+    .main-section__header__list
+        margin-right: 50px
+@media (max-width:1200px)
+    .main-section__header__list_item
+        padding-right: 15px     
+    .main-section__header__list
+        margin-right: 15px
+    .main-section__header
+        padding-left: 20px
+        padding-right: 20px
+@media (max-width:1024px)
+    .main-section__header__button
+        width: 170px
+        height: 50px
+        font-size: 11px
+    .main-section__recipes__logo
+        font-size: 50px
+@media (max-width:768px)
+    .main-section__recipes__logo
+        width: 80%
+        font-size: 45px
+    .main-section__recipes__text
+        font-size: 17px
+    .main-section__header__list 
+        flex-direction: column
+        align-items: flex-start
+        background: rgba(0, 0, 0, 0.3)
+        position: absolute
+        right: 0%
+        top: -100%
+        height: 300px
+        justify-content: space-evenly
+        padding: 15px
+        margin: 0
+        transition: 0.2s all
+        &_active
+            top: 100px
+    .main-section__header__button
+        display: none
+    .main-section__header__hamburger
+        display: block
+    .main-section__header__list_item
+        padding-right: 0px     
+@media (max-width:425px)
+    .main-section__recipes__logo
+        font-size: 33px
+@media (max-width:375px)
+    .main-section__recipes__dish
+        display: none
+    .main-section__header__icon
+        width: 50%
