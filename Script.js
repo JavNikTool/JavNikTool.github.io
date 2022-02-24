@@ -160,17 +160,29 @@ function random(low, high) {
   new Visual();
 
  
- $(".btn").on("mousemove", function none (){
+ $(".btn").on("mousemove", function(){
     $(".wrap").addClass("active");
   });
   $(".btn").on("mouseout", function(){
     $(".wrap").removeClass("active");
   });
-  $(".btn").on("click", function act (){
+  $(".btn").on("click", function(){
     $(".wrap").addClass("active-2");
     $(".text").addClass("active-2");
     $(".wrap").removeClass("active");
     $(".btn").addClass("active");
     $(".btn-2").addClass("active");
   });
- 
+  $(".btn-2").on("click", function(){
+    $(".btn-2").removeClass("active");
+    $(".wrap-slider").addClass("active");
+  });
+
+  $(document).ready(function(){
+    $('.wrap-slider').slick({/* 
+      centerMode:true, */
+      prevArrow: '<button class="slide-arrow prev-arrow"><i class="ai-chevron-left"></i></button>',
+      nextArrow: '<button class="slide-arrow next-arrow"><i class="ai-chevron-right"></i></button>'
+    });
+  });
+    
